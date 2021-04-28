@@ -1,0 +1,66 @@
+<html>
+
+<head>
+  <title>ALTA DE CLIENTES</title>
+
+  <style>
+
+    
+
+    section{
+      margin-top: 10%;
+      margin-left: 40%;
+      margin-right: 40%;
+      border: solid black 2px;
+      border-radius: 10px;
+      padding: 2%;
+      text-align: center; 
+    }
+
+  </style>
+
+
+</head>
+
+<body>
+
+  <section>
+  <h1>ALTA DE CLIENTES</h1>
+  <form action="altaClientes.php" method="POST">
+    Ingrese nombre:<br>
+    <input type="text" name="nombre"><br>
+    Ingrese apellido 1:<br>
+    <input type="text" name="apellido1"><br>
+    Ingrese apellido 2:<br>
+    <input type="text" name="apellido2"><br>
+    Ingrese sexo:<br>
+    <select name="sexo">
+      <option value="MASC">MASCULINO</option>
+      <option value="FEM">FEMENINO</option>
+      <option value="OTRO">OTRO</option>
+    </select>
+    <br>
+    Ingrese Direccion:<br>
+    <input type="text" name="direccion"><br>
+    Ingrese Correo:<br>
+    <input type="email" name="correo"><br>
+    Ingrese Telefono:<br>
+    <input type="number" name="telefono"><br>
+    Ingrese Fecha Nacimiento:<br>
+    <input type="date" name="fecha"><br>
+    Ingrese Poblacion:<br>
+    <input type="text" name="poblacion"><br>
+    Ingrese Provincia:<br>
+    <input type="text" name="provincia"><br>
+    Ingrese Contraseña:<br>
+    <input type="password" name="contrasena"><br>
+    Ingrese DNI:<br>
+    <input type="text" name="dni"><br>
+    <br>
+    <input type="submit" value="Registrar">
+  </form>
+
+</section>
+</body>
+
+</html>
